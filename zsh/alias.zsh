@@ -1,6 +1,12 @@
 # Aliases
 # ------------------------------
 
+# Directory jumping: alias j to z (zsh-z plugin)
+# Usage: j <directory-name> to jump to frequently used directories
+j() {
+  z "$@"
+}
+
 # Git aliases (common, minimal)
 alias g='git'
 alias gst='git status -sb'
