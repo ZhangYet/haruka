@@ -17,6 +17,13 @@ source "${ZINIT_HOME}/zinit.zsh"
 zinit ice wait lucid
 zinit light agkozak/zsh-z
 
+# Directory jumping: alias j to z (zsh-z plugin)
+# Usage: j <directory-name> to jump to frequently used directories
+j() {
+  z "$@"
+}
+
+
 # fzf-based history search (Ctrl-R)
 # Requires: fzf (recommend: sudo pacman -S fzf)
 # This is implemented as a zle widget (no extra plugin needed).
