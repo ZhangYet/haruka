@@ -23,6 +23,12 @@ j() {
   z "$@"
 }
 
+# Git plugin from oh-my-zsh (provides comprehensive git aliases)
+# This replaces manual git alias definitions
+# Load with wait lucid to ensure proper initialization
+zinit ice wait lucid
+zinit snippet OMZ::plugins/git/git.plugin.zsh
+
 
 # fzf-based history search (Ctrl-R)
 # Requires: fzf (recommend: sudo pacman -S fzf)
