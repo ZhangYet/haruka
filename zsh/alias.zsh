@@ -1,0 +1,25 @@
+# Aliases
+# ------------------------------
+
+# Git aliases (common, minimal)
+alias g='git'
+alias gst='git status -sb'
+alias ga='git add'
+alias gaa='git add -A'
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gca='git commit --amend'
+alias gco='git checkout'
+alias gcb='git checkout -b'
+alias gb='git branch'
+alias gba='git branch -a'
+alias gbd='git branch -d'
+alias gbD='git branch -D'
+alias gl='git log --oneline --decorate --graph -20'
+alias glo='git log --oneline --decorate --graph'
+alias gd='git diff'
+alias gds='git diff --staged'
+alias gp='git push'
+alias gpf='git push --force-with-lease'
+alias gpl='git pull --rebase'
+alias gcl='git clone'
